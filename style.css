@@ -1,0 +1,386 @@
+
+body{
+    background-color: black;
+    margin: 0;
+    box-sizing: border-box;
+    position:relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+   .spotify path {
+    fill: white;
+}
+.spotify{
+    margin-left: 20px;
+}
+.nav-bar{
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.home-logo{
+    width:47px;
+    height:47px;
+    background-color: rgba(255, 254, 254, 0.215);
+    padding: 2px 13px;
+    border-radius: 50%;
+    fill: white;
+    box-sizing: border-box;
+}
+   .search path {
+    fill:rgba(255, 254, 254, 0.374);
+}
+.search{
+    width:26px;
+    margin-right: -40px;
+}
+.inputContent{
+    background-color: rgba(255, 254, 254, 0.215);
+    width: 430px;
+    padding:12px 0px;
+    border: none;
+    border-radius: 50px;
+    padding-left:50px;
+    color: rgba(255, 255, 255, 0.741);
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+.center-bar{
+    display: flex;
+    gap: 23px;
+    /* justify-content: center; */
+    margin-left:300px;
+}
+.searchleftbar{
+    color: rgba(255, 254, 254, 0.215);
+    font-size: 30px;
+    font-weight:100;
+    padding-bottom: 3px;
+    margin-left: -58px;
+}
+.downloadlogo{
+    width:30px;
+    padding-top: 5px;
+    margin-left:7px;
+}
+.downloadlogo path {
+    fill: rgba(255, 254, 254, 0.308);
+}
+.para{
+    color: rgba(255, 254, 254, 0.523);
+    font-weight: bolder;
+}
+.loginbtn{
+    color: black;
+    background-color: white;
+    padding: 12px 0px;
+    width: 90px;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+.login{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+.bottom-nav{
+    width: calc(100vw - 20px);
+    height: 70px;
+    background-image: linear-gradient(90deg, #af2896, #509bf5);
+    border: none;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 6px;
+    left: 10px;
+    margin-right: 10px;
+    z-index: 1000;
+}
+.preview{
+    color: white;
+    font-size:16px;
+    font-weight:bolder;
+}
+.preview1{
+    color: white;
+    font-weight:400;
+}
+.bottompara-nav{
+    margin-left: 15px;
+    margin-top:11px;
+    
+}
+.signUpBtn{
+    color: black;
+    background-color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bolder;
+    position: fixed;
+    bottom: 18px;
+    right: 22px;
+    z-index: 1000;
+}
+.Left-container{
+    width: 480px;
+    height: calc(100vh - 66px - 82px);
+    background-color: rgba(67, 44, 44, 0.265);
+    color: white;
+    position: fixed;
+    top: 66px;
+    left:10px;
+    border: none;
+    border-radius:8px;
+    overflow-y: auto;
+}
+
+.right-container{
+    width: calc(100vw - 506px); /* 10 + 480 + 6 + 10(right margin) */
+    height: calc(100vh - 66px - 82px);
+    background: #240007;
+    background: linear-gradient(320deg,rgba(243, 237, 239, 0.215) 35%, rgba(66, 1, 1, 0.933) 100%, rgba(241, 237, 237, 0.262) 100%);
+    padding-left:42px;
+    padding-top: 22px;
+    color: white;
+    position: fixed;
+    box-sizing: border-box;
+    top: 66px;
+    left: 496px;
+    border: none;
+    border-radius: 8px;
+    overflow-y: auto;
+}
+.createPluselogo{
+    width:15px;
+    height: 20px;
+}
+.createPluselogo path {
+    fill: rgba(255, 254, 254, 0.308);
+}
+.createbtn{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.056);
+    width: 80px;
+    border: none;
+    color: rgb(244, 238, 238);
+    padding:8px 12px;
+    border-radius: 50px;
+}
+.createPara{
+    font-weight:500;
+    font-size: 15px;
+}
+.Left-container-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+    margin-top: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.notes{
+    box-sizing: border-box;
+    width:86%;
+    background-color: #1f1f1f;
+    margin: 34px 32px 0;
+    border-radius: 8px;
+    padding: 14px;
+}
+
+.createPlaylist{
+    /* align-items: center; */
+    background-color: rgb(246, 243, 243);
+    width:140px;
+    margin-top: 19px;
+    padding-top: 8px;
+    padding-bottom:8px;
+    text-align: center;
+    border: none;
+    color: rgb(4, 0, 0);
+    font-size: 15px;
+    font-weight:bolder;
+    /* padding:8px 12px; */
+    border-radius: 50px;
+}
+.headNote{
+    font-weight: bolder;
+    margin-bottom:10px;
+}
+.createPlaylist1{
+    /* align-items: center; */
+    background-color: rgb(246, 243, 243);
+    width:150px;
+    margin-top: 19px;
+    padding-top: 8px;
+    padding-bottom:8px;
+    text-align: center;
+    border: none;
+    color: rgb(4, 0, 0);
+    font-size: 15px;
+    font-weight:bolder;
+    /* padding:8px 12px; */
+    border-radius: 50px;
+}
+.languagebtn{
+    position: fixed;
+    left: 26px;
+    bottom:104px;
+    background-color: #1f1f1f;
+    border: none;
+    font-weight:bolder;
+    color: rgba(255, 255, 255, 0.704);
+    padding: 6px 17px;
+    border-radius: 50px;
+}
+.cookies{
+    display: flex;
+    gap:22px;
+    font-size: smaller;
+    position: fixed;
+    left: 26px;
+    bottom:220px;
+    color: rgba(255, 255, 255, 0.51);
+}
+.cookies2{
+    display: flex;
+    gap:22px;
+    font-size: smaller;
+    position: fixed;
+    left: 26px;
+    bottom:194px;
+    color: rgba(255, 255, 255, 0.51);
+}
+.cookies3{
+    display: flex;
+    gap:22px;
+    font-size: smaller;
+    position: fixed;
+    left: 26px;
+    bottom:168px;
+    color: rgba(255, 255, 255, 0.51);
+}
+.right-container-headers{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom:20px;
+}
+.cardGroup{
+    display: flex;
+    gap:14px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.cards{
+    width: 180px;
+    height: 180px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(179, 163, 163, 0.174);
+     flex-shrink: 0;
+}
+.cardGroup::-webkit-scrollbar{
+    height: 8px;
+}
+
+.cardGroup::-webkit-scrollbar-thumb{
+    background: #555;
+    border-radius: 10px;
+}
+
+.cardGroup::-webkit-scrollbar-track{
+    background: #222;
+}
+
+.cardGroup{
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+}
+
+.cardGroup::-webkit-scrollbar{
+    display: none; /* Chrome, Edge, Safari */
+}
+.songName{
+    font-weight: bolder;
+    padding-left: 3px;
+    font-size: large;
+    color: rgba(255, 255, 255, 0.834);
+    padding-top:7px;
+}
+.songinfo{
+    padding-left: 3px;
+    margin-bottom: 80px;
+    font-weight:400;
+    font-size:small;
+    color: rgba(255, 255, 255, 0.679);
+}
+.cards2{
+    width: 180px;
+    height: 180px;
+    border: none;
+    border-radius:50%;
+    background-color: rgba(255, 0, 0, 0.242);
+     flex-shrink: 0;
+}
+.right-container::-webkit-scrollbar{
+    width: 10px;
+}
+
+.right-container::-webkit-scrollbar-track{
+    background: transparent;
+}
+.right-container::-webkit-scrollbar{
+    width: 7px;
+}
+.right-container::-webkit-scrollbar-thumb{
+    background: rgba(245, 243, 243, 0.048);
+    border-radius: 10px;
+}
+
+.right-container::-webkit-scrollbar-thumb:hover{
+    background: rgba(255,255,255,0.4);
+}
+
+.faq{
+    margin-top: 50px;
+    border-top: 2px solid rgba(255, 255, 255, 0.282);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.282);
+    width: 98%;
+    margin: auto;
+    display: flex;
+    gap:140px;
+    height: 280px;
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+.faq-header{
+    font-weight: bolder;
+    font-size:medium;
+    margin-bottom: 10px;
+
+}
+.faq-sub{
+    font-weight:200;
+    color: rgba(255, 255, 255, 0.606);
+    font-size:medium;
+    margin-bottom: 5px;
+}
+
+.insta{
+    width:45px;
+    height:45px;
+    background-color: rgba(255, 254, 254, 0.112);
+    padding: 2px 11px;
+    margin-right: 10px;
+    border-radius: 50%;
+    fill: rgba(255, 255, 255, 0.723);
+    box-sizing: border-box;
+}
