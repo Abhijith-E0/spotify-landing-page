@@ -21,7 +21,7 @@
             <svg data-encore-id="icon" class="search" role="img" aria-hidden="true" viewBox="0 0 24 24">
               <path d="M10.533 1.27893C5.35215 1.27893 1.12598 5.41887 1.12598 10.5579C1.12598 15.697 5.35215 19.8369 10.533 19.8369C12.767 19.8369 14.8235 19.0671 16.4402 17.7794L20.7929 22.132C21.1834 22.5226 21.8166 22.5226 22.2071 22.132C22.5976 21.7415 22.5976 21.1083 22.2071 20.7178L17.8634 16.3741C19.1616 14.7849 19.94 12.7634 19.94 10.5579C19.94 5.41887 15.7138 1.27893 10.533 1.27893ZM3.12598 10.5579C3.12598 6.55226 6.42768 3.27893 10.533 3.27893C14.6383 3.27893 17.94 6.55226 17.94 10.5579C17.94 14.5636 14.6383 17.8369 10.533 17.8369C6.42768 17.8369 3.12598 14.5636 3.12598 10.5579Z"/>
             </svg>
-            <div class="inputContent">What do you want to play?</div>
+            <input type="text"  id="searchInput" placeholder="What do you want to play?" class="inputContent"></input>
             <div class="searchleftbar">|</div> 
             <svg data-encore-id="icon" class="downloadlogo" role="img" aria-hidden="true" viewBox="0 0 24 24"><path d="M15 15.5c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2"></path><path d="M1.513 9.37A1 1 0 0 1 2.291 9h19.418a1 1 0 0 1 .979 1.208l-2.339 11a1 1 0 0 1-.978.792H4.63a1 1 0 0 1-.978-.792l-2.339-11a1 1 0 0 1 .201-.837zM3.525 11l1.913 9h13.123l1.913-9zM4 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v4h-2V3H6v3H4z"></path></svg>       
           </div> 
@@ -32,6 +32,69 @@
           <div class="loginbtn">Login</div>
         </div>
      </div>
+
+     <!-- Login Signup Popup -->
+
+<div class="auth-container" id="authBox">
+
+    <div class="auth-card">
+
+        <span class="close" id="closeBtn">&times;</span>
+
+
+        <div id="loginForm">
+
+            <h1>Login</h1>
+
+            <input class="input1" type="email" placeholder="Email">
+
+            <input class="input1" type="password" placeholder="Password">
+
+            <button>Login</button>
+
+            <p>
+                Don't have an account?
+                <span id="showSignup">
+                    Signup
+                </span>
+            </p>
+
+        </div>
+
+
+
+        <div id="signupForm" class="hide">
+
+
+            <h1>Signup</h1>
+
+            <input class="input1"  type="text" placeholder="Username">
+
+            <input class="input1" type="email" placeholder="Email">
+
+            <input class="input1" type="password" placeholder="Password">
+
+
+            <button>
+                Signup
+            </button>
+
+
+            <p>
+                Already have account?
+                <span id="showLogin">
+                    Login
+                </span>
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+</div>
+
 
      <!--left container secssion  -->
 
@@ -504,16 +567,16 @@
           </div>
           
           <div class="svg">
-            <svg data-encore-id="icon" class="insta" role="img" aria-hidden="true" viewBox="0 0 16 16">
+            <svg data-encore-id="icon" class="instagram" id="insta" role="img" aria-hidden="true" viewBox="0 0 16 16">
               <path d="M8 1.44c2.136 0 2.389.009 3.233.047.78.036 1.203.166 1.485.276.348.128.663.332.921.598.266.258.47.573.599.921.11.282.24.706.275 1.485.039.844.047 1.097.047 3.233s-.008 2.389-.047 3.232c-.035.78-.166 1.204-.275 1.486a2.65 2.65 0 0 1-1.518 1.518c-.282.11-.706.24-1.486.275-.843.039-1.097.047-3.233.047s-2.39-.008-3.232-.047c-.78-.035-1.204-.165-1.486-.275a2.5 2.5 0 0 1-.921-.599 2.5 2.5 0 0 1-.599-.92c-.11-.282-.24-.706-.275-1.486-.038-.844-.047-1.096-.047-3.232s.009-2.39.047-3.233c.036-.78.166-1.203.275-1.485.129-.348.333-.663.599-.921a2.5 2.5 0 0 1 .92-.599c.283-.11.707-.24 1.487-.275.843-.038 1.096-.047 3.232-.047L8 1.441zm.001-1.442c-2.172 0-2.445.01-3.298.048-.854.04-1.435.176-1.943.373a3.9 3.9 0 0 0-1.417.923c-.407.4-.722.883-.923 1.417-.198.508-.333 1.09-.372 1.942S0 5.826 0 8c0 2.172.01 2.445.048 3.298.04.853.174 1.433.372 1.941.2.534.516 1.017.923 1.417.4.407.883.722 1.417.923.508.198 1.09.333 1.942.372s1.126.048 3.299.048 2.445-.01 3.298-.048c.853-.04 1.433-.174 1.94-.372a4.1 4.1 0 0 0 2.34-2.34c.199-.508.334-1.09.373-1.942S16 10.172 16 7.999s-.01-2.445-.048-3.298c-.04-.853-.174-1.433-.372-1.94a3.9 3.9 0 0 0-.923-1.418A3.9 3.9 0 0 0 13.24.42c-.508-.197-1.09-.333-1.942-.371-.851-.041-1.125-.05-3.298-.05z"/>
               <path d="M8 3.892a4.108 4.108 0 1 0 0 8.216 4.108 4.108 0 0 0 0-8.216m0 6.775a2.668 2.668 0 1 1 0-5.335 2.668 2.668 0 0 1 0 5.335m4.27-5.978a.96.96 0 1 0 0-1.92.96.96 0 0 0 0 1.92"/>
             </svg>
 
-            <svg data-encore-id="icon" class="insta" role="img" aria-hidden="true" viewBox="0 0 16 16">
+            <svg data-encore-id="icon" class="facebook" role="img" aria-hidden="true" viewBox="0 0 16 16">
               <path d="M16 8a8 8 0 1 0-9.25 7.903v-5.59H4.719V8H6.75V6.237c0-2.005 1.194-3.112 3.022-3.112.875 0 1.79.156 1.79.156V5.25h-1.008c-.994 0-1.304.617-1.304 1.25V8h2.219l-.355 2.313H9.25v5.59A8 8 0 0 0 16 8"/>
             </svg>
 
-            <svg data-encore-id="icon" class="insta" role="img" aria-hidden="true" viewBox="0 0 16 16">
+            <svg data-encore-id="icon" class="twiter" role="img" aria-hidden="true" viewBox="0 0 16 16">
               <path d="M13.54 3.889a2.97 2.97 0 0 0 1.333-1.683 6 6 0 0 1-1.929.738 3 3 0 0 0-.996-.706 3 3 0 0 0-1.218-.254 2.92 2.92 0 0 0-2.143.889 2.93 2.93 0 0 0-.889 2.15q0 .318.08.691a8.5 8.5 0 0 1-3.484-.932A8.5 8.5 0 0 1 1.532 2.54a3 3 0 0 0-.413 1.523q0 .778.361 1.445.36.668.988 1.08a2.9 2.9 0 0 1-1.373-.374v.04q0 1.088.69 1.92a2.97 2.97 0 0 0 1.739 1.048 2.94 2.94 0 0 1-1.365.056 2.94 2.94 0 0 0 1.063 1.5 2.95 2.95 0 0 0 1.77.603 5.94 5.94 0 0 1-3.77 1.302q-.365 0-.722-.048A8.4 8.4 0 0 0 5.15 14q1.358 0 2.572-.361 1.215-.36 2.147-.988a9 9 0 0 0 1.683-1.46q.75-.834 1.234-1.798a9.5 9.5 0 0 0 .738-1.988 8.4 8.4 0 0 0 .246-2.429 6.2 6.2 0 0 0 1.508-1.563q-.84.373-1.738.476"/>
             </svg>
           </div>
@@ -533,5 +596,6 @@
           </div>
           <div class="signUpBtn">Sign up free</div>
      </div>
+     <script src="./script.js"></script>
 </body>
 </html>
