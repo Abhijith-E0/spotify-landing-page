@@ -33,7 +33,7 @@ This project recreates the Spotify web interface with a modern UI, interactive c
 
 ---
 ## Live Demo
-live link : 
+live link : https://abhijith-e0.github.io/spotify-landing-page/ 
 
 ## Project Structure
 
@@ -63,14 +63,14 @@ spotify-landing-page/
 - Close button functionality
 - Smooth opening animation
 
-### 🔗 Social Links
+### Social Links
 - Instagram
 - Facebook
 - Twitter/X
 
 Open directly using JavaScript `window.open()`.
 
-## 🌟 Future Improvements
+## Future Improvements
 
 - Add real Spotify API integration
 - Add music playback functionality
@@ -80,7 +80,7 @@ Open directly using JavaScript `window.open()`.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Abhijith Ee**
 
