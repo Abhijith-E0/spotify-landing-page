@@ -26,7 +26,7 @@ This project recreates the Spotify web interface with a modern UI, interactive c
 
 ---
 ## 📸 Screenshot
-
+![Spotify Landing Page Screenshot](./images/spotify1.png)
 ![Spotify Landing Page Screenshot](./images/spotify3.png)
 ![Spotify Landing Page Screenshot](./images/spotify4.png)
 ![Spotify Landing Page Screenshot](./images/spotify5.png)
